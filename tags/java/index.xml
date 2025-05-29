@@ -179,13 +179,13 @@
 &lt;/div>
 &lt;/div></description></item><item><title>用JDBC实现DAO</title><link>https://rxlxr11.github.io/p/%E7%94%A8jdbc%E5%AE%9E%E7%8E%B0dao/</link><pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate><guid>https://rxlxr11.github.io/p/%E7%94%A8jdbc%E5%AE%9E%E7%8E%B0dao/</guid><description>&lt;img src="https://rxlxr11.github.io/p/%E7%94%A8jdbc%E5%AE%9E%E7%8E%B0dao/cover.jpg" alt="Featured image of post 用JDBC实现DAO" />&lt;h1 id="dao实现连接数据库">DAO实现连接数据库
 &lt;/h1>&lt;p>&lt;img src="https://rxlxr11.github.io/p/%E7%94%A8jdbc%E5%AE%9E%E7%8E%B0dao/cover.jpg"
-width="3840"
-height="2160"
-srcset="https://rxlxr11.github.io/p/%E7%94%A8jdbc%E5%AE%9E%E7%8E%B0dao/cover_hu16150746019914200022.jpg 480w, https://rxlxr11.github.io/p/%E7%94%A8jdbc%E5%AE%9E%E7%8E%B0dao/cover_hu9530233351675298387.jpg 1024w"
+width="4000"
+height="6000"
+srcset="https://rxlxr11.github.io/p/%E7%94%A8jdbc%E5%AE%9E%E7%8E%B0dao/cover_hu16005227971187832040.jpg 480w, https://rxlxr11.github.io/p/%E7%94%A8jdbc%E5%AE%9E%E7%8E%B0dao/cover_hu13209078050079960056.jpg 1024w"
 loading="lazy"
 class="gallery-image"
-data-flex-grow="177"
-data-flex-basis="426px"
+data-flex-grow="66"
+data-flex-basis="160px"
 >&lt;/p>
 &lt;p>根据jdbc的基础知识可以看出，连接数据库的关键是要获取Connection对象，且数据库的连接数量存在限制，所以我们在一次连接中完成要做的业务后要关闭连接。为了提高代码的简洁性，复用性。我们要将获取connnection和关闭相关资源封装。&lt;/p>
 &lt;p>根据以上信息我们可以创建一个IBaseDao接口，以后的dao都要继承IBaseDao&lt;/p>
