@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Docker on rxlxr的博客</title><link>https://rxlxr11.github.io/tags/docker/</link><description>Recent content in Docker on rxlxr的博客</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Example Person</copyright><lastBuildDate>Wed, 19 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://rxlxr11.github.io/tags/docker/index.xml" rel="self" type="application/rss+xml"/><item><title>Docker使用</title><link>https://rxlxr11.github.io/p/docker%E4%BD%BF%E7%94%A8/</link><pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate><guid>https://rxlxr11.github.io/p/docker%E4%BD%BF%E7%94%A8/</guid><description>&lt;img src="https://rxlxr11.github.io/p/docker%E4%BD%BF%E7%94%A8/cover.jpg" alt="Featured image of post Docker使用" />&lt;h2 id="认识docker">认识Docker
+&lt;/h2>&lt;p>借助 Docker，您可将容器当做轻巧、模块化的虚拟机来使用。同时，您还将获得高度灵活性，实现对容器的高效创建、部署及复制，并在环境之间迁移它们，从而有助于您针对云来优化应用。&lt;/p>
+&lt;p>Docker 中的容器就像是轻量级的虚拟机，虽然不是真正模拟整个操作系统，但能提供类似的隔离运行环境。镜像就像是程序运行所需要的环境模板，容器就是在这个模板基础上启动起来的“活的”实例。&lt;/p>
+&lt;h2 id="系统服务">系统服务
+&lt;/h2>&lt;p>分析系统所需要的功能，将其模块化分别放入容器中。&lt;/p>
+&lt;p>系统所需容器如下&lt;/p>
+&lt;ol>
+&lt;li>Inference容器，用于推理图片中的垃圾属于什么类型&lt;/li>
+&lt;li>Flask容器 作为系统的核心服务，负责接收用户请求、调度任务&lt;/li>
+&lt;li>Mysql容器 用于存储系统数据，包括用户信息、识别结果、训练日志等&lt;/li>
+&lt;li>ffmpeg容器 用于摄像头推流&lt;/li>
+&lt;li>hls容器 视频流转码&lt;/li>
+&lt;li>frame-extractor 容器 用于抓取视频帧&lt;/li>
+&lt;li>rtsp容器 视频流中转（ffmpeg将视频流推送到rtsp服务器，系统从rtsp服务器获取视频流）&lt;/li>
+&lt;/ol></description></item></channel></rss>
