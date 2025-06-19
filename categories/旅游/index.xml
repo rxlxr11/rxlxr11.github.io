@@ -1,4 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>旅游 on rxlxr的博客</title><link>https://rxlxr11.github.io/categories/%E6%97%85%E6%B8%B8/</link><description>Recent content in 旅游 on rxlxr的博客</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Example Person</copyright><lastBuildDate>Sun, 05 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://rxlxr11.github.io/categories/%E6%97%85%E6%B8%B8/index.xml" rel="self" type="application/rss+xml"/><item><title>基本素养</title><link>https://rxlxr11.github.io/p/%E5%9F%BA%E6%9C%AC%E7%B4%A0%E5%85%BB/</link><pubDate>Sun, 05 Jan 2025 00:00:00 +0000</pubDate><guid>https://rxlxr11.github.io/p/%E5%9F%BA%E6%9C%AC%E7%B4%A0%E5%85%BB/</guid><description>&lt;img src="https://rxlxr11.github.io/p/%E5%9F%BA%E6%9C%AC%E7%B4%A0%E5%85%BB/cover.jpg" alt="Featured image of post 基本素养" />&lt;p>&lt;strong>变量的命名的规则&lt;/strong>：字下美人数 &amp;ndash;字母下划线 美元的符号人民币符号数字
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>旅游 on rxlxr的博客</title><link>https://rxlxr11.github.io/categories/%E6%97%85%E6%B8%B8/</link><description>Recent content in 旅游 on rxlxr的博客</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Example Person</copyright><lastBuildDate>Sun, 05 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://rxlxr11.github.io/categories/%E6%97%85%E6%B8%B8/index.xml" rel="self" type="application/rss+xml"/><item><title>springboot</title><link>https://rxlxr11.github.io/p/springboot/</link><pubDate>Sun, 05 Jan 2025 00:00:00 +0000</pubDate><guid>https://rxlxr11.github.io/p/springboot/</guid><description>&lt;img src="https://rxlxr11.github.io/p/springboot/cover.jpg" alt="Featured image of post springboot" />&lt;h2 id="三大特性">三大特性
+&lt;/h2>&lt;h3 id="iocinversion-of-control">IOC（Inversion of Control）
+&lt;/h3>&lt;p>在以往的开发中，一个类若想调用另一个类的属性或方法，通常会使用new Object()的方式来实现调用，将前者称为调用者后者成为被调用者，这样就可以说是调用者掌握着被调用者对象创建的控制权。ioc带来的不仅仅是代码层次的改变，而是思想方面发生了”主从换位“的改变。原本调用者要想使用哪些资源都会主动出击，自己创建。但在spring应用中，ioc掌握着主动权，调用者变成了被动的一方，被动的等待ioc创建他所需要的对象，这个过程在职责层面发生了控制权的反转，把原本调用者通过代码实现的对象的创建，反转给ioc容器来帮忙实现，因此，将这个过程称为spring的控制反转。&lt;/p>
+&lt;h3 id="di">DI
+&lt;/h3>&lt;p>依赖注入，控制反转的核心思想就是由spring来负责对象的创建，在创建对象的过程中，spring会自动根据依赖关系将他依赖的对象注入到当前对象中，这就是依赖注入，依赖注入本质上是spring bean属性注入的一种，只不过这个属性是一个对象属性而已。属性注入的方式有①set方式②有参构造③p命名空间&lt;/p>
+&lt;h3 id="aop">AOP
+&lt;/h3>&lt;p>面向切面编程&lt;/p></description></item><item><title>基本素养</title><link>https://rxlxr11.github.io/p/%E5%9F%BA%E6%9C%AC%E7%B4%A0%E5%85%BB/</link><pubDate>Sun, 05 Jan 2025 00:00:00 +0000</pubDate><guid>https://rxlxr11.github.io/p/%E5%9F%BA%E6%9C%AC%E7%B4%A0%E5%85%BB/</guid><description>&lt;img src="https://rxlxr11.github.io/p/%E5%9F%BA%E6%9C%AC%E7%B4%A0%E5%85%BB/cover.jpg" alt="Featured image of post 基本素养" />&lt;p>&lt;strong>变量的命名的规则&lt;/strong>：字下美人数 &amp;ndash;字母下划线 美元的符号人民币符号数字
 首字母小写，驼峰（第二个及以后的单词的首字母大写）表示
 首字母只允许使用字母下划线和美元符号&lt;/p>
 &lt;p>&lt;strong>常量&lt;/strong>：被常量关键字final修饰的变量为常量，特点只能赋值一次，并且变量名要全部大写&lt;/p>
@@ -24,4 +30,11 @@ Map接口存储一组键值对象，提供key到value的映射&lt;/p>
 &lt;p>三大范式
 第一范式的目标是确保每列的原子性
 第二范式要求每个表只描述一件事情
-第三范式如果一个关系满足2NF，并且除了主键以外的其他列都不传递依赖于主键列&lt;/p></description></item></channel></rss>
+第三范式如果一个关系满足2NF，并且除了主键以外的其他列都不传递依赖于主键列&lt;/p>
+&lt;p>spring&lt;/p>
+&lt;p>控制反转（Inversion of Control&amp;mdash;IOC）&lt;/p>
+&lt;p>是一种设计思想，人话：将对象交给容器去管理，例如不需要你去new象了，由容器去创建对象提供给你。&lt;/p>
+&lt;p>依赖注入（Dependency Injection&amp;mdash;DI）&lt;/p>
+&lt;p>就是你写的类在运行的时候依赖于ioc容器在你需要某个对象的时候给你去注入对象&lt;/p>
+&lt;p>面向切面（Aspect Oriented Programming&amp;mdash;AOP）&lt;/p>
+&lt;p>面向切面编程，通过预编译方式和运行期间动态代理实现程序功能的统一维护的一种技术。AOP是OOP的延续，是软件开发中的一个热点，也是Spring框架中的一个重要内容，是函数式编程的一种衍生范型。利用AOP可以对业务逻辑的各个部分进行隔离，从而使得业务逻辑各部分之间的耦合度降低，提高程序的可重用性，同时提高了开发的效率。&lt;/p></description></item></channel></rss>

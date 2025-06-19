@@ -1,4 +1,49 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>数据库 on rxlxr的博客</title><link>https://rxlxr11.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/</link><description>Recent content in 数据库 on rxlxr的博客</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Example Person</copyright><lastBuildDate>Wed, 19 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://rxlxr11.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/index.xml" rel="self" type="application/rss+xml"/><item><title>ajax</title><link>https://rxlxr11.github.io/p/ajax/</link><pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate><guid>https://rxlxr11.github.io/p/ajax/</guid><description>&lt;img src="https://rxlxr11.github.io/p/ajax/cover.jpg" alt="Featured image of post ajax" /></description></item><item><title>Hugo主题Stack搭建博客</title><link>https://rxlxr11.github.io/p/hugo%E4%B8%BB%E9%A2%98stack%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</link><pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate><guid>https://rxlxr11.github.io/p/hugo%E4%B8%BB%E9%A2%98stack%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</guid><description>&lt;img src="https://rxlxr11.github.io/p/hugo%E4%B8%BB%E9%A2%98stack%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/cover.jpg" alt="Featured image of post Hugo主题Stack搭建博客" /></description></item><item><title>JDBC</title><link>https://rxlxr11.github.io/p/jdbc/</link><pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate><guid>https://rxlxr11.github.io/p/jdbc/</guid><description>&lt;img src="https://rxlxr11.github.io/p/jdbc/cover.jpg" alt="Featured image of post JDBC" />&lt;h1 id="java-database-connectivity">Java Database Connectivity
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>数据库 on rxlxr的博客</title><link>https://rxlxr11.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/</link><description>Recent content in 数据库 on rxlxr的博客</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Example Person</copyright><lastBuildDate>Sun, 01 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://rxlxr11.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/index.xml" rel="self" type="application/rss+xml"/><item><title>常用快捷键</title><link>https://rxlxr11.github.io/p/%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/</link><pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate><guid>https://rxlxr11.github.io/p/%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/</guid><description>&lt;img src="https://rxlxr11.github.io/p/%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/cover.jpg" alt="Featured image of post 常用快捷键" />&lt;h2 id="vscode">vscode
+&lt;/h2>&lt;ol>
+&lt;li>格式化 &lt;strong>shift+option+f&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;h2 id="mac">MAC
+&lt;/h2>&lt;ol>
+&lt;li>隐藏文件 &lt;strong>cmd+shift+.&lt;/strong>&lt;/li>
+&lt;li>关闭所有视窗 &lt;strong>opt+cmd+w&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;h2 id="idea">IDEA
+&lt;/h2>&lt;ol>
+&lt;li>替换 &lt;strong>cmd+r&lt;/strong>&lt;/li>
+&lt;li>格式化代码 &lt;strong>opt+cmd+l&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;div class="db-card">
+&lt;div class="db-card-subject">
+&lt;div class="db-card-post">
+&lt;img
+src="https://neodb.social/m/book/2021/09/15b668a208-5639-42b5-9619-7cf69988e609.jpg"
+alt="Cover Image"
+style="max-width: 100%; height: auto"
+/>
+&lt;/div>
+&lt;div class="db-card-content">
+&lt;div class="db-card-title">
+&lt;a href="https://neodb.social/book/5GOyla8WFMa7UMWr1YMd5p" class="cute" target="_blank" rel="noreferrer"
+>龙族Ⅰ&lt;/a
+>
+&lt;/div>
+&lt;div class="db-card-rating">
+2025 年 06 月 19 日 读过
+&lt;div class="db-card-rating-stars">
+&lt;i class="fa-solid fa-star">&lt;/i>
+&lt;i class="fa-solid fa-star">&lt;/i>
+&lt;i class="fa-solid fa-star">&lt;/i>
+&lt;i class="fa-solid fa-star">&lt;/i>
+&lt;i class="fa-solid fa-star">&lt;/i>
+&lt;/div>
+&lt;/div>
+&lt;div class="db-card-comment">
+他以为他将这样度过一生，他以为他始终只是个衰小孩。但是，一封来自卡塞尔学院的录取通知书改变了他的一生。云层里透出神秘的吟唱：你也有神奇的父母，你也有热血的同伴，你的血管里流动着龙族的血液。而你的目标将是 —— 屠龙。
+&lt;/div>
+&lt;/div>
+&lt;div class="db-card-cate">book&lt;/div>
+&lt;/div>
+&lt;/div></description></item><item><title>ajax</title><link>https://rxlxr11.github.io/p/ajax/</link><pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate><guid>https://rxlxr11.github.io/p/ajax/</guid><description>&lt;img src="https://rxlxr11.github.io/p/ajax/cover.jpg" alt="Featured image of post ajax" /></description></item><item><title>Hugo主题Stack搭建博客</title><link>https://rxlxr11.github.io/p/hugo%E4%B8%BB%E9%A2%98stack%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</link><pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate><guid>https://rxlxr11.github.io/p/hugo%E4%B8%BB%E9%A2%98stack%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</guid><description>&lt;img src="https://rxlxr11.github.io/p/hugo%E4%B8%BB%E9%A2%98stack%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/cover.jpg" alt="Featured image of post Hugo主题Stack搭建博客" /></description></item><item><title>JDBC</title><link>https://rxlxr11.github.io/p/jdbc/</link><pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate><guid>https://rxlxr11.github.io/p/jdbc/</guid><description>&lt;img src="https://rxlxr11.github.io/p/jdbc/cover.jpg" alt="Featured image of post JDBC" />&lt;h1 id="java-database-connectivity">Java Database Connectivity
 &lt;/h1>&lt;h2 id="概念">概念
 &lt;/h2>&lt;p>JAVA数据库连接技术&lt;/p>
 &lt;h2 id="主要功能">主要功能
@@ -177,14 +222,7 @@
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="p">}&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div></description></item><item><title>jsp</title><link>https://rxlxr11.github.io/p/jsp/</link><pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate><guid>https://rxlxr11.github.io/p/jsp/</guid><description>&lt;img src="https://rxlxr11.github.io/p/jsp/cover.jpg" alt="Featured image of post jsp" /></description></item><item><title>yb-mvc</title><link>https://rxlxr11.github.io/p/yb-mvc/</link><pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate><guid>https://rxlxr11.github.io/p/yb-mvc/</guid><description>&lt;img src="https://rxlxr11.github.io/p/yb-mvc/cover.jpg" alt="Featured image of post yb-mvc" /></description></item><item><title>常用快捷键</title><link>https://rxlxr11.github.io/p/%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/</link><pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate><guid>https://rxlxr11.github.io/p/%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/</guid><description>&lt;img src="https://rxlxr11.github.io/p/%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/cover.jpg" alt="Featured image of post 常用快捷键" />&lt;h2 id="vscode">vscode
-&lt;/h2>&lt;ol>
-&lt;li>格式化 shift+option+f&lt;/li>
-&lt;/ol>
-&lt;h2 id="mac">MAC
-&lt;/h2>&lt;ol>
-&lt;li>隐藏文件 cmd+shift+.&lt;/li>
-&lt;/ol></description></item><item><title>常用指令</title><link>https://rxlxr11.github.io/p/%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4/</link><pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate><guid>https://rxlxr11.github.io/p/%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4/</guid><description>&lt;img src="https://rxlxr11.github.io/p/%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4/cover.jpg" alt="Featured image of post 常用指令" /></description></item><item><title>动态网页开发基础</title><link>https://rxlxr11.github.io/p/%E5%8A%A8%E6%80%81%E7%BD%91%E9%A1%B5%E5%BC%80%E5%8F%91%E5%9F%BA%E7%A1%80/</link><pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate><guid>https://rxlxr11.github.io/p/%E5%8A%A8%E6%80%81%E7%BD%91%E9%A1%B5%E5%BC%80%E5%8F%91%E5%9F%BA%E7%A1%80/</guid><description>&lt;img src="https://rxlxr11.github.io/p/%E5%8A%A8%E6%80%81%E7%BD%91%E9%A1%B5%E5%BC%80%E5%8F%91%E5%9F%BA%E7%A1%80/cover.jpg" alt="Featured image of post 动态网页开发基础" />&lt;h2 id="什么是bs技术--cs">什么是B/S技术 c/s
+&lt;/div></description></item><item><title>jsp</title><link>https://rxlxr11.github.io/p/jsp/</link><pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate><guid>https://rxlxr11.github.io/p/jsp/</guid><description>&lt;img src="https://rxlxr11.github.io/p/jsp/cover.jpg" alt="Featured image of post jsp" /></description></item><item><title>yb-mvc</title><link>https://rxlxr11.github.io/p/yb-mvc/</link><pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate><guid>https://rxlxr11.github.io/p/yb-mvc/</guid><description>&lt;img src="https://rxlxr11.github.io/p/yb-mvc/cover.jpg" alt="Featured image of post yb-mvc" /></description></item><item><title>常用指令</title><link>https://rxlxr11.github.io/p/%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4/</link><pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate><guid>https://rxlxr11.github.io/p/%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4/</guid><description>&lt;img src="https://rxlxr11.github.io/p/%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4/cover.jpg" alt="Featured image of post 常用指令" /></description></item><item><title>动态网页开发基础</title><link>https://rxlxr11.github.io/p/%E5%8A%A8%E6%80%81%E7%BD%91%E9%A1%B5%E5%BC%80%E5%8F%91%E5%9F%BA%E7%A1%80/</link><pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate><guid>https://rxlxr11.github.io/p/%E5%8A%A8%E6%80%81%E7%BD%91%E9%A1%B5%E5%BC%80%E5%8F%91%E5%9F%BA%E7%A1%80/</guid><description>&lt;img src="https://rxlxr11.github.io/p/%E5%8A%A8%E6%80%81%E7%BD%91%E9%A1%B5%E5%BC%80%E5%8F%91%E5%9F%BA%E7%A1%80/cover.jpg" alt="Featured image of post 动态网页开发基础" />&lt;h2 id="什么是bs技术--cs">什么是B/S技术 c/s
 &lt;/h2>&lt;p>B/S架构（浏览器/服务器）：
 程序完全部署在服务器上&lt;/p>
 &lt;h2 id="bs技术的工作原理">B/S技术的工作原理
@@ -973,11 +1011,9 @@ create New Project&amp;ndash;&amp;gt;java&amp;ndash;&amp;gt;javaEE&amp;ndash;&am
 &lt;/span>&lt;span class="lnt">24
 &lt;/span>&lt;span class="lnt">25
 &lt;/span>&lt;span class="lnt">26
-&lt;/span>&lt;span class="lnt">27
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-java" data-lang="java">&lt;span class="line">&lt;span class="cl">&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="kd">private&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="kd">static&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">String&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">driver&lt;/span>&lt;span class="p">;&lt;/span>&lt;span class="w">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-java" data-lang="java">&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="kd">private&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="kd">static&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">String&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">driver&lt;/span>&lt;span class="p">;&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="kd">private&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="kd">static&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">String&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">url&lt;/span>&lt;span class="p">;&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="kd">private&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="kd">static&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">String&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">user&lt;/span>&lt;span class="p">;&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="kd">private&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="kd">static&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">String&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">password&lt;/span>&lt;span class="p">;&lt;/span>&lt;span class="w">
@@ -1434,11 +1470,9 @@ create New Project&amp;ndash;&amp;gt;java&amp;ndash;&amp;gt;javaEE&amp;ndash;&am
 &lt;/span>&lt;span class="lnt">34
 &lt;/span>&lt;span class="lnt">35
 &lt;/span>&lt;span class="lnt">36
-&lt;/span>&lt;span class="lnt">37
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-java" data-lang="java">&lt;span class="line">&lt;span class="cl">&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="kd">public&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="kd">class&lt;/span> &lt;span class="nc">StudentDaoImpl&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="kd">extends&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">BaseDaoImpl&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="kd">implements&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">IStudentDao&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="p">{&lt;/span>&lt;span class="w">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-java" data-lang="java">&lt;span class="line">&lt;span class="cl">&lt;span class="kd">public&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="kd">class&lt;/span> &lt;span class="nc">StudentDaoImpl&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="kd">extends&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">BaseDaoImpl&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="kd">implements&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">IStudentDao&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="p">{&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nd">@Override&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="kd">public&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">ArrayList&lt;/span>&lt;span class="o">&amp;lt;&lt;/span>&lt;span class="n">Student&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nf">queryAll&lt;/span>&lt;span class="p">()&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="p">{&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="c1">//建立数据库连接&lt;/span>&lt;span class="w">
