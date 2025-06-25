@@ -46,33 +46,34 @@
 &lt;li>差点走至小麦岛，最后一公里，坚持不住了，打车到小麦岛，汇合看落日。&lt;/li>
 &lt;li>晚饭吃川菜，有亿点点辣&amp;hellip;&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="https://rxlxr11.github.io/p/%E9%9D%92%E5%B2%9B%E5%A8%81%E6%B5%B7/ocean.jpg"
-width="4096"
-height="3072"
-srcset="https://rxlxr11.github.io/p/%E9%9D%92%E5%B2%9B%E5%A8%81%E6%B5%B7/ocean_hu8704480473572357775.jpg 480w, https://rxlxr11.github.io/p/%E9%9D%92%E5%B2%9B%E5%A8%81%E6%B5%B7/ocean_hu5162231412941785131.jpg 1024w"
-loading="lazy"
-class="gallery-image"
-data-flex-grow="133"
-data-flex-basis="320px"
->&lt;/p>
-&lt;p>&lt;img src="https://rxlxr11.github.io/p/%E9%9D%92%E5%B2%9B%E5%A8%81%E6%B5%B7/mo.jpg"
-width="4096"
-height="3072"
-srcset="https://rxlxr11.github.io/p/%E9%9D%92%E5%B2%9B%E5%A8%81%E6%B5%B7/mo_hu8162171478506165535.jpg 480w, https://rxlxr11.github.io/p/%E9%9D%92%E5%B2%9B%E5%A8%81%E6%B5%B7/mo_hu9829983396812897967.jpg 1024w"
-loading="lazy"
-class="gallery-image"
-data-flex-grow="133"
-data-flex-basis="320px"
->&lt;/p>
-&lt;p>&lt;img src="https://rxlxr11.github.io/p/%E9%9D%92%E5%B2%9B%E5%A8%81%E6%B5%B7/ri.jpg"
-width="4096"
-height="3072"
-srcset="https://rxlxr11.github.io/p/%E9%9D%92%E5%B2%9B%E5%A8%81%E6%B5%B7/ri_hu7915109106445169499.jpg 480w, https://rxlxr11.github.io/p/%E9%9D%92%E5%B2%9B%E5%A8%81%E6%B5%B7/ri_hu1127932220784581733.jpg 1024w"
-loading="lazy"
-class="gallery-image"
-data-flex-grow="133"
-data-flex-basis="320px"
->&lt;/p>
+&lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css">
+&lt;div class="swiper-container">
+&lt;div class="swiper-wrapper">
+&lt;div class="swiper-slide">
+&lt;img src="ocean.jpg" alt="">
+&lt;/div>
+&lt;div class="swiper-slide">
+&lt;img src="mo.jpg" alt="">
+&lt;/div>
+&lt;div class="swiper-slide">
+&lt;img src="ri.jpg" alt="">
+&lt;/div>
+&lt;/div>
+&lt;div class="swiper-pagination">&lt;/div>
+&lt;/div>
+&lt;script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js">&lt;/script>
+&lt;script>
+var swiper = new Swiper('.swiper-container', {
+pagination: '.swiper-pagination',
+paginationClickable: true,
+autoHeight: true,
+keyboardControl : true,
+mousewheelControl : true,
+lazyLoading : true,
+lazyLoadingInPrevNext : true,
+loop : true,
+});
+&lt;/script>
 &lt;h2 id="day3">Day3
 &lt;/h2>&lt;blockquote>
 &lt;p>酒店 ——&amp;gt; 福多多家常菜 ——&amp;gt; 啤酒博物馆 ——&amp;gt; 石老人海水浴场&lt;/p>
@@ -85,33 +86,34 @@ data-flex-basis="320px"
 &lt;/h2>&lt;blockquote>
 &lt;p>韩乐坊 ——&amp;gt; 布鲁威斯号 ——&amp;gt; 刘公岛 ——&amp;gt; 吴草鸡爪 ——&amp;gt; 猫头山&lt;/p>
 &lt;/blockquote>
-&lt;p>&lt;img src="https://rxlxr11.github.io/p/%E9%9D%92%E5%B2%9B%E5%A8%81%E6%B5%B7/ou.jpg"
-width="1301"
-height="2894"
-srcset="https://rxlxr11.github.io/p/%E9%9D%92%E5%B2%9B%E5%A8%81%E6%B5%B7/ou_hu8132283660414695833.jpg 480w, https://rxlxr11.github.io/p/%E9%9D%92%E5%B2%9B%E5%A8%81%E6%B5%B7/ou_hu5636083830289138525.jpg 1024w"
-loading="lazy"
-class="gallery-image"
-data-flex-grow="44"
-data-flex-basis="107px"
->&lt;/p>
-&lt;p>&lt;img src="https://rxlxr11.github.io/p/%E9%9D%92%E5%B2%9B%E5%A8%81%E6%B5%B7/ship.jpg"
-width="3837"
-height="2878"
-srcset="https://rxlxr11.github.io/p/%E9%9D%92%E5%B2%9B%E5%A8%81%E6%B5%B7/ship_hu12317340810762238656.jpg 480w, https://rxlxr11.github.io/p/%E9%9D%92%E5%B2%9B%E5%A8%81%E6%B5%B7/ship_hu15904854417974621348.jpg 1024w"
-loading="lazy"
-class="gallery-image"
-data-flex-grow="133"
-data-flex-basis="319px"
->&lt;/p>
-&lt;p>&lt;img src="https://rxlxr11.github.io/p/%E9%9D%92%E5%B2%9B%E5%A8%81%E6%B5%B7/kuang.jpg"
-width="2928"
-height="2196"
-srcset="https://rxlxr11.github.io/p/%E9%9D%92%E5%B2%9B%E5%A8%81%E6%B5%B7/kuang_hu5603908888968305757.jpg 480w, https://rxlxr11.github.io/p/%E9%9D%92%E5%B2%9B%E5%A8%81%E6%B5%B7/kuang_hu3778040530215728889.jpg 1024w"
-loading="lazy"
-class="gallery-image"
-data-flex-grow="133"
-data-flex-basis="320px"
->&lt;/p></description></item><item><title>Echarts 使用技巧</title><link>https://rxlxr11.github.io/p/echarts-%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/</link><pubDate>Sun, 05 Jan 2025 00:00:00 +0000</pubDate><guid>https://rxlxr11.github.io/p/echarts-%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/</guid><description>&lt;img src="https://rxlxr11.github.io/p/echarts-%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/cover.jpg" alt="Featured image of post Echarts 使用技巧" />&lt;h2 id="通用">通用
+&lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css">
+&lt;div class="swiper-container">
+&lt;div class="swiper-wrapper">
+&lt;div class="swiper-slide">
+&lt;img src="ou.jpg" alt="">
+&lt;/div>
+&lt;div class="swiper-slide">
+&lt;img src="ship.jpg" alt="">
+&lt;/div>
+&lt;div class="swiper-slide">
+&lt;img src="kuang.jpg" alt="">
+&lt;/div>
+&lt;/div>
+&lt;div class="swiper-pagination">&lt;/div>
+&lt;/div>
+&lt;script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js">&lt;/script>
+&lt;script>
+var swiper = new Swiper('.swiper-container', {
+pagination: '.swiper-pagination',
+paginationClickable: true,
+autoHeight: true,
+keyboardControl : true,
+mousewheelControl : true,
+lazyLoading : true,
+lazyLoadingInPrevNext : true,
+loop : true,
+});
+&lt;/script></description></item><item><title>Echarts 使用技巧</title><link>https://rxlxr11.github.io/p/echarts-%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/</link><pubDate>Sun, 05 Jan 2025 00:00:00 +0000</pubDate><guid>https://rxlxr11.github.io/p/echarts-%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/</guid><description>&lt;img src="https://rxlxr11.github.io/p/echarts-%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/cover.jpg" alt="Featured image of post Echarts 使用技巧" />&lt;h2 id="通用">通用
 &lt;/h2>&lt;h2 id="柱状图">柱状图
 &lt;/h2>&lt;h2 id="折线图">折线图
 &lt;/h2></description></item><item><title>springboot</title><link>https://rxlxr11.github.io/p/springboot/</link><pubDate>Sun, 05 Jan 2025 00:00:00 +0000</pubDate><guid>https://rxlxr11.github.io/p/springboot/</guid><description>&lt;img src="https://rxlxr11.github.io/p/springboot/cover.jpg" alt="Featured image of post springboot" />&lt;h2 id="三大特性">三大特性
@@ -120,7 +122,7 @@ data-flex-basis="320px"
 &lt;h3 id="di">DI
 &lt;/h3>&lt;p>依赖注入，控制反转的核心思想就是由spring来负责对象的创建，在创建对象的过程中，spring会自动根据依赖关系将他依赖的对象注入到当前对象中，这就是依赖注入，依赖注入本质上是spring bean属性注入的一种，只不过这个属性是一个对象属性而已。属性注入的方式有①set方式②有参构造③p命名空间&lt;/p>
 &lt;h3 id="aop">AOP
-&lt;/h3>&lt;p>面向切面编程&lt;/p></description></item><item><title>基本素养</title><link>https://rxlxr11.github.io/p/%E5%9F%BA%E6%9C%AC%E7%B4%A0%E5%85%BB/</link><pubDate>Sun, 05 Jan 2025 00:00:00 +0000</pubDate><guid>https://rxlxr11.github.io/p/%E5%9F%BA%E6%9C%AC%E7%B4%A0%E5%85%BB/</guid><description>&lt;img src="https://rxlxr11.github.io/p/%E5%9F%BA%E6%9C%AC%E7%B4%A0%E5%85%BB/cover.jpg" alt="Featured image of post 基本素养" />&lt;p>&lt;strong>变量的命名的规则&lt;/strong>：字下美人数 &amp;ndash;字母下划线 美元的符号人民币符号数字
+&lt;/h3>&lt;p>面向切面编程&lt;/p></description></item><item><title>基本素养</title><link>https://rxlxr11.github.io/p/%E5%9F%BA%E6%9C%AC%E7%B4%A0%E5%85%BB/</link><pubDate>Sun, 05 Jan 2025 00:00:00 +0000</pubDate><guid>https://rxlxr11.github.io/p/%E5%9F%BA%E6%9C%AC%E7%B4%A0%E5%85%BB/</guid><description>&lt;p>&lt;strong>变量的命名的规则&lt;/strong>：字下美人数 &amp;ndash;字母下划线 美元的符号人民币符号数字
 首字母小写，驼峰（第二个及以后的单词的首字母大写）表示
 首字母只允许使用字母下划线和美元符号&lt;/p>
 &lt;p>&lt;strong>常量&lt;/strong>：被常量关键字final修饰的变量为常量，特点只能赋值一次，并且变量名要全部大写&lt;/p>

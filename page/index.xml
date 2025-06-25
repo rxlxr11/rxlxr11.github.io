@@ -1,19 +1,339 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pages on rxlxr的博客</title><link>https://rxlxr11.github.io/page/</link><description>Recent content in Pages on rxlxr的博客</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Example Person</copyright><lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://rxlxr11.github.io/page/index.xml" rel="self" type="application/rss+xml"/><item><title>归档</title><link>https://rxlxr11.github.io/archives/</link><pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate><guid>https://rxlxr11.github.io/archives/</guid><description/></item><item><title>Links</title><link>https://rxlxr11.github.io/links/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rxlxr11.github.io/links/</guid><description>&lt;p>To use this feature, add &lt;code>links&lt;/code> section to frontmatter.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pages on rxlxr的博客</title><link>https://rxlxr11.github.io/page/</link><description>Recent content in Pages on rxlxr的博客</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Example Person</copyright><lastBuildDate>Fri, 09 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://rxlxr11.github.io/page/index.xml" rel="self" type="application/rss+xml"/><item><title>归档｜Archives</title><link>https://rxlxr11.github.io/archives/</link><pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate><guid>https://rxlxr11.github.io/archives/</guid><description/></item><item><title>关于｜about</title><link>https://rxlxr11.github.io/%E5%85%B3%E4%BA%8Eabout/</link><pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate><guid>https://rxlxr11.github.io/%E5%85%B3%E4%BA%8Eabout/</guid><description>&lt;p>Written in Go, Hugo is an open source static site generator available under the &lt;a class="link" href="https://github.com/gohugoio/hugo/blob/master/LICENSE" target="_blank" rel="noopener"
+>Apache License 2.0.&lt;/a> Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.&lt;/p>
+&lt;p>Hugo makes use of a variety of open source projects including:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://github.com/yuin/goldmark" target="_blank" rel="noopener"
+>https://github.com/yuin/goldmark&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://github.com/alecthomas/chroma" target="_blank" rel="noopener"
+>https://github.com/alecthomas/chroma&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://github.com/muesli/smartcrop" target="_blank" rel="noopener"
+>https://github.com/muesli/smartcrop&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://github.com/spf13/cobra" target="_blank" rel="noopener"
+>https://github.com/spf13/cobra&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://github.com/spf13/viper" target="_blank" rel="noopener"
+>https://github.com/spf13/viper&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.&lt;/p>
+&lt;p>Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.&lt;/p>
+&lt;p>Websites built with Hugo are extremely fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.&lt;/p>
+&lt;p>Learn more and contribute on &lt;a class="link" href="https://github.com/gohugoio" target="_blank" rel="noopener"
+>GitHub&lt;/a>.&lt;/p>
+&lt;div id="heatmap" style="
+max-width: 600px;
+height: 180px;
+padding: 2px;
+text-align: center;"
+>&lt;/div>
+&lt;script src="https://cdn.jsdelivr.net/npm/echarts@5.3.0/dist/echarts.min.js">&lt;/script>
+&lt;script type="text/javascript">
+var chartDom = document.getElementById('heatmap');
+var myChart = echarts.init(chartDom);
+window.onresize = function() {
+myChart.resize();
+};
+var option;
+var dataMap = new Map();
+var key = "2025-06-23";
+var value = dataMap.get(key);
+var wordCount = 283 ;
+var link = "/p/yolov5%E4%BD%BF%E7%94%A8/";
+var title = "YOLOv5使用";
+if (value == null) {
+dataMap.set(key, [{wordCount, link, title}]);
+} else {
+value.push({wordCount, link, title});
+}
+var key = "2025-06-01";
+var value = dataMap.get(key);
+var wordCount = 13 ;
+var link = "/p/%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/";
+var title = "常用快捷键";
+if (value == null) {
+dataMap.set(key, [{wordCount, link, title}]);
+} else {
+value.push({wordCount, link, title});
+}
+var key = "2025-04-30";
+var value = dataMap.get(key);
+var wordCount = 77 ;
+var link = "/p/%E9%9D%92%E5%B2%9B%E5%A8%81%E6%B5%B7/";
+var title = "青岛威海";
+if (value == null) {
+dataMap.set(key, [{wordCount, link, title}]);
+} else {
+value.push({wordCount, link, title});
+}
+var key = "2025-02-19";
+var value = dataMap.get(key);
+var wordCount = 0 ;
+var link = "/p/ajax/";
+var title = "ajax";
+if (value == null) {
+dataMap.set(key, [{wordCount, link, title}]);
+} else {
+value.push({wordCount, link, title});
+}
+var key = "2025-02-19";
+var value = dataMap.get(key);
+var wordCount = 489 ;
+var link = "/p/amap%E4%BD%BF%E7%94%A8/";
+var title = "AMap使用";
+if (value == null) {
+dataMap.set(key, [{wordCount, link, title}]);
+} else {
+value.push({wordCount, link, title});
+}
+var key = "2025-02-19";
+var value = dataMap.get(key);
+var wordCount = 1 ;
+var link = "/p/css%E5%9F%BA%E7%A1%80%E5%BA%94%E7%94%A8/";
+var title = "css基础应用";
+if (value == null) {
+dataMap.set(key, [{wordCount, link, title}]);
+} else {
+value.push({wordCount, link, title});
+}
+var key = "2025-02-19";
+var value = dataMap.get(key);
+var wordCount = 22 ;
+var link = "/p/docker%E4%BD%BF%E7%94%A8/";
+var title = "Docker使用";
+if (value == null) {
+dataMap.set(key, [{wordCount, link, title}]);
+} else {
+value.push({wordCount, link, title});
+}
+var key = "2025-02-19";
+var value = dataMap.get(key);
+var wordCount = 167 ;
+var link = "/p/jdbc/";
+var title = "JDBC";
+if (value == null) {
+dataMap.set(key, [{wordCount, link, title}]);
+} else {
+value.push({wordCount, link, title});
+}
+var key = "2025-02-19";
+var value = dataMap.get(key);
+var wordCount = 0 ;
+var link = "/p/jsp/";
+var title = "jsp";
+if (value == null) {
+dataMap.set(key, [{wordCount, link, title}]);
+} else {
+value.push({wordCount, link, title});
+}
+var key = "2025-02-19";
+var value = dataMap.get(key);
+var wordCount = 0 ;
+var link = "/p/yb-mvc/";
+var title = "yb-mvc";
+if (value == null) {
+dataMap.set(key, [{wordCount, link, title}]);
+} else {
+value.push({wordCount, link, title});
+}
+var key = "2025-02-19";
+var value = dataMap.get(key);
+var wordCount = 0 ;
+var link = "/p/%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4/";
+var title = "常用指令";
+if (value == null) {
+dataMap.set(key, [{wordCount, link, title}]);
+} else {
+value.push({wordCount, link, title});
+}
+var key = "2025-02-19";
+var value = dataMap.get(key);
+var wordCount = 661 ;
+var link = "/p/%E5%8A%A8%E6%80%81%E7%BD%91%E9%A1%B5%E5%BC%80%E5%8F%91%E5%9F%BA%E7%A1%80/";
+var title = "动态网页开发基础";
+if (value == null) {
+dataMap.set(key, [{wordCount, link, title}]);
+} else {
+value.push({wordCount, link, title});
+}
+var key = "2025-02-19";
+var value = dataMap.get(key);
+var wordCount = 0 ;
+var link = "/p/%E8%BD%AE%E6%92%AD%E5%9B%BE/";
+var title = "轮播图";
+if (value == null) {
+dataMap.set(key, [{wordCount, link, title}]);
+} else {
+value.push({wordCount, link, title});
+}
+var key = "2025-02-19";
+var value = dataMap.get(key);
+var wordCount = 797 ;
+var link = "/p/%E7%94%A8jdbc%E5%AE%9E%E7%8E%B0dao/";
+var title = "用JDBC实现DAO";
+if (value == null) {
+dataMap.set(key, [{wordCount, link, title}]);
+} else {
+value.push({wordCount, link, title});
+}
+var key = "2025-02-19";
+var value = dataMap.get(key);
+var wordCount = 414 ;
+var link = "/p/%E7%94%A8jdbc%E5%AE%9E%E7%8E%B0%E5%A2%9E%E5%88%A0%E6%94%B9%E6%9F%A5/";
+var title = "用JDBC实现增删改查";
+if (value == null) {
+dataMap.set(key, [{wordCount, link, title}]);
+} else {
+value.push({wordCount, link, title});
+}
+var key = "2025-02-18";
+var value = dataMap.get(key);
+var wordCount = 407 ;
+var link = "/p/hugo-%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/";
+var title = "Hugo 搭建博客";
+if (value == null) {
+dataMap.set(key, [{wordCount, link, title}]);
+} else {
+value.push({wordCount, link, title});
+}
+var key = "2025-01-05";
+var value = dataMap.get(key);
+var wordCount = 3 ;
+var link = "/p/echarts-%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/";
+var title = "Echarts 使用技巧";
+if (value == null) {
+dataMap.set(key, [{wordCount, link, title}]);
+} else {
+value.push({wordCount, link, title});
+}
+var key = "2025-01-05";
+var value = dataMap.get(key);
+var wordCount = 11 ;
+var link = "/p/springboot/";
+var title = "springboot";
+if (value == null) {
+dataMap.set(key, [{wordCount, link, title}]);
+} else {
+value.push({wordCount, link, title});
+}
+var key = "2025-01-05";
+var value = dataMap.get(key);
+var wordCount = 42 ;
+var link = "/p/%E5%9F%BA%E6%9C%AC%E7%B4%A0%E5%85%BB/";
+var title = "基本素养";
+if (value == null) {
+dataMap.set(key, [{wordCount, link, title}]);
+} else {
+value.push({wordCount, link, title});
+}var data = [];
+for (const [key, value] of dataMap.entries()) {
+var sum = 0;
+for (const v of value) {
+sum += v.wordCount;
+}
+data.push([key, (sum / 1000).toFixed(1)]);
+}
+var startDate = new Date();
+var year_Mill = startDate.setFullYear((startDate.getFullYear() - 1));
+var startDate = +new Date(year_Mill);
+var endDate = +new Date();
+var dayTime = 3600 * 24 * 1000;
+startDate = echarts.format.formatTime('yyyy-MM-dd', startDate);
+endDate = echarts.format.formatTime('yyyy-MM-dd', endDate);
+function heatmap_width(months){
+var startDate = new Date();
+var mill = startDate.setMonth((startDate.getMonth() - months));
+var endDate = +new Date();
+startDate = +new Date(mill);
+endDate = echarts.format.formatTime('yyyy-MM-dd', endDate);
+startDate = echarts.format.formatTime('yyyy-MM-dd', startDate);
+var showmonth = [];
+showmonth.push([
+startDate,
+endDate
+]);
+return showmonth
+};
+function getRangeArr() {
+const windowWidth = window.innerWidth;
+if (windowWidth >= 600) {
+return heatmap_width(12);
+} else if (windowWidth >= 400) {
+return heatmap_width(9);
+} else {
+return heatmap_width(6);
+}
+}
+option = {
+title: {
+top: 0,
+left: 'center',
+text: '博客废话产量'
+},
+tooltip: {
+hideDelay: 1000,
+enterable: true,
+formatter: function (p) {
+const date = p.data[0];
+const posts = dataMap.get(date);
+var content = `${date}`;
+for (const [i, post] of posts.entries()) {
+content += "&lt;br>";
+var link = post.link;
+var title = post.title;
+var wordCount = (post.wordCount / 1000).toFixed(1);
+content += `&lt;a href="${link}" target="_blank">${title} | ${wordCount} 千字&lt;/a>`
+}
+return content;
+}
+},
+visualMap: {
+min: 0,
+max: 10,
+type: 'piecewise',
+orient: 'horizontal',
+left: 'center',
+top: 30,
+inRange: {
+color: ['#7aa8744c', '#7AA874' ]
+},
+splitNumber: 4,
+text: ['千字', ''],
+showLabel: true,
+itemGap: 20,
+},
+calendar: {
+top: 80,
+left: 20,
+right: 4,
+cellSize: ['auto', 12],
+range: getRangeArr(),
+itemStyle: {
+color: '#F1F1F1',
+borderWidth: 2.5,
+borderColor: '#fff',
+},
+yearLabel: { show: false },
+splitLine: {
+lineStyle: {
+color: 'rgba(0, 0, 0, 0.0)',
+}
+}
+},
+series: {
+type: 'heatmap',
+coordinateSystem: 'calendar',
+data: data,
+}
+};
+myChart.setOption(option);
+myChart.on('click', function(params) {
+if (params.componentType === 'series') {
+const post = dataMap.get(params.data[0])[0];
+const link = window.location.origin + post.link;
+window.open(link, '_blank').focus();
+}
+});
+&lt;/script></description></item><item><title>搜索｜Search</title><link>https://rxlxr11.github.io/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rxlxr11.github.io/search/</guid><description/></item><item><title>友链｜Links</title><link>https://rxlxr11.github.io/%E5%8F%8B%E9%93%BElinks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rxlxr11.github.io/%E5%8F%8B%E9%93%BElinks/</guid><description>&lt;p>To use this feature, add &lt;code>links&lt;/code> section to frontmatter.&lt;/p>
 &lt;p>This page&amp;rsquo;s frontmatter:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;span class="lnt">3
-&lt;/span>&lt;span class="lnt">4
-&lt;/span>&lt;span class="lnt">5
-&lt;/span>&lt;span class="lnt">6
-&lt;/span>&lt;span class="lnt">7
-&lt;/span>&lt;span class="lnt">8
-&lt;/span>&lt;span class="lnt">9
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-yaml" data-lang="yaml">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">links&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-yaml" data-lang="yaml">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">links&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">title&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">GitHub&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">description&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">GitHub is the world&amp;#39;s largest software development platform.&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">website&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">https://github.com&lt;/span>&lt;span class="w">
@@ -22,6 +342,4 @@
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">description&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">website&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">https://www.typescriptlang.org&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">image&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">ts-logo-128.jpg&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>&lt;code>image&lt;/code> field accepts both local and external images.&lt;/p></description></item><item><title>关于</title><link>https://rxlxr11.github.io/%E5%85%B3%E4%BA%8E/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rxlxr11.github.io/%E5%85%B3%E4%BA%8E/</guid><description>&lt;p>​&lt;/p></description></item><item><title>搜索</title><link>https://rxlxr11.github.io/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rxlxr11.github.io/search/</guid><description/></item></channel></rss>
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;code>image&lt;/code> field accepts both local and external images.&lt;/p></description></item></channel></rss>
