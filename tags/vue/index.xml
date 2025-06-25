@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Vue on rxlxr的博客</title><link>https://rxlxr11.github.io/tags/vue/</link><description>Recent content in Vue on rxlxr的博客</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Example Person</copyright><lastBuildDate>Wed, 19 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://rxlxr11.github.io/tags/vue/index.xml" rel="self" type="application/rss+xml"/><item><title>AMap使用</title><link>https://rxlxr11.github.io/p/amap%E4%BD%BF%E7%94%A8/</link><pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate><guid>https://rxlxr11.github.io/p/amap%E4%BD%BF%E7%94%A8/</guid><description>&lt;img src="https://rxlxr11.github.io/p/amap%E4%BD%BF%E7%94%A8/cover.jpg" alt="Featured image of post AMap使用" />&lt;h2 id="申请密匙">申请密匙
 &lt;/h2>&lt;h2 id="展示地图">展示地图
 &lt;/h2>&lt;p>关于新建地图的代码在高德官方文档中写得比较详尽，此处就不再赘述。&lt;/p>
-&lt;p>&lt;a class="link" href="https://lbs.amap.com/api/javascript-api-v2/guide/abc/amap-vue" target="_blank" rel="noopener"
->高德文档&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://lbs.amap.com/api/javascript-api-v2/guide/abc/amap-vue" target="_blank" rel="noopener" >高德文档
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em" height=".7em" viewBox="0 0 21 21"
+xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>&lt;/p>
 &lt;p>进入页面看到地图，就可以算是完成使用amap的伟大的第一步了。&lt;/p>
 &lt;h2 id="展示图层">展示图层
 &lt;/h2>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-vue" data-lang="vue">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">template&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>

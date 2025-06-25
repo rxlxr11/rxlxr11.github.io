@@ -32,8 +32,14 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="短评卡片">短评卡片
-&lt;/h3>&lt;p>详情见&lt;a class="link" href="https://thirdshire.com/hugo-stack-renovation-part-three/" target="_blank" rel="noopener"
->Hugo Stack 主题装修笔记 Part 3&lt;/a>&lt;/p>
+&lt;/h3>&lt;p>详情见&lt;a class="link" href="https://thirdshire.com/hugo-stack-renovation-part-three/" target="_blank" rel="noopener" >Hugo Stack 主题装修笔记 Part 3
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em" height=".7em" viewBox="0 0 21 21"
+xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>&lt;/p>
 &lt;div class="db-card">
 &lt;div class="db-card-subject">
 &lt;div class="db-card-post">
@@ -67,8 +73,14 @@ style="max-width: 100%; height: auto"
 &lt;/div>
 &lt;/div>
 &lt;h3 id="返回顶部">返回顶部
-&lt;/h3>&lt;p>详情见&lt;a class="link" href="https://yelleis.top/p/hugo-theme-stack-beautification/#%E8%BF%94%E5%9B%9E%E9%A1%B6%E9%83%A8" target="_blank" rel="noopener"
->返回顶部&lt;/a>&lt;/p>
+&lt;/h3>&lt;p>详情见&lt;a class="link" href="https://yelleis.top/p/hugo-theme-stack-beautification/#%E8%BF%94%E5%9B%9E%E9%A1%B6%E9%83%A8" target="_blank" rel="noopener" >返回顶部
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em" height=".7em" viewBox="0 0 21 21"
+xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>&lt;/p>
 &lt;h3 id="折叠">折叠
 &lt;/h3>&lt;p>使用方法如下,使用时去掉反斜杠&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">{\{&lt;span class="p">&amp;lt;&lt;/span> &lt;span class="nt">details&lt;/span> &lt;span class="na">title&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;Learn More&amp;#34;&lt;/span> &lt;span class="p">&amp;gt;&lt;/span>}\}
@@ -205,9 +217,27 @@ style="max-width: 100%; height: auto"
 &lt;/h3>&lt;h3 id="图片轮播">图片轮播
 &lt;/h3>&lt;h3 id="固定块高度">固定块高度
 &lt;/h3>&lt;h3 id="相册">相册
-&lt;/h3>&lt;p>&lt;a class="link" href="https://yelleis.top/about/" target="_blank" rel="noopener"
->https://yelleis.top/about/&lt;/a>
-&lt;a class="link" href="https://thirdshire.com/" target="_blank" rel="noopener"
->https://thirdshire.com/&lt;/a>
-&lt;a class="link" href="https://hyrtee.github.io/2023/start-blog/" target="_blank" rel="noopener"
->https://hyrtee.github.io/2023/start-blog/&lt;/a>&lt;/p></description></item></channel></rss>
+&lt;/h3>&lt;p>&lt;a class="link" href="https://yelleis.top/about/" target="_blank" rel="noopener" >https://yelleis.top/about/
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em" height=".7em" viewBox="0 0 21 21"
+xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>
+&lt;a class="link" href="https://thirdshire.com/" target="_blank" rel="noopener" >https://thirdshire.com/
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em" height=".7em" viewBox="0 0 21 21"
+xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>
+&lt;a class="link" href="https://hyrtee.github.io/2023/start-blog/" target="_blank" rel="noopener" >https://hyrtee.github.io/2023/start-blog/
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em" height=".7em" viewBox="0 0 21 21"
+xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>&lt;/p></description></item></channel></rss>
