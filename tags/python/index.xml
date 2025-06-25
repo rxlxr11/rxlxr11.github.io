@@ -1,4 +1,239 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Python on rxlxr的博客</title><link>https://rxlxr11.github.io/tags/python/</link><description>Recent content in Python on rxlxr的博客</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Example Person</copyright><lastBuildDate>Wed, 19 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://rxlxr11.github.io/tags/python/index.xml" rel="self" type="application/rss+xml"/><item><title>Docker使用</title><link>https://rxlxr11.github.io/p/docker%E4%BD%BF%E7%94%A8/</link><pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate><guid>https://rxlxr11.github.io/p/docker%E4%BD%BF%E7%94%A8/</guid><description>&lt;img src="https://rxlxr11.github.io/p/docker%E4%BD%BF%E7%94%A8/cover.jpg" alt="Featured image of post Docker使用" />&lt;h2 id="认识docker">认识Docker
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Python on rxlxr的博客</title><link>https://rxlxr11.github.io/tags/python/</link><description>Recent content in Python on rxlxr的博客</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Example Person</copyright><lastBuildDate>Mon, 23 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://rxlxr11.github.io/tags/python/index.xml" rel="self" type="application/rss+xml"/><item><title>YOLOv5使用</title><link>https://rxlxr11.github.io/p/yolov5%E4%BD%BF%E7%94%A8/</link><pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate><guid>https://rxlxr11.github.io/p/yolov5%E4%BD%BF%E7%94%A8/</guid><description>&lt;img src="https://rxlxr11.github.io/p/yolov5%E4%BD%BF%E7%94%A8/cover.webp" alt="Featured image of post YOLOv5使用" />&lt;h2 id="数据集">数据集
+&lt;/h2>&lt;p>若能找到公开数据集，该章操作都可以省略，否则按照以下步骤创建数据集&lt;/p>
+&lt;h3 id="运行环境">运行环境
+&lt;/h3>&lt;ol>
+&lt;li>
+&lt;p>安装Anaconda&lt;/p>
+&lt;blockquote>
+&lt;p>Anaconda 是一个专为数据科学、机器学习和大数据处理设计的开源 Python/R 发行版本和管理平台。它由 Anaconda, Inc.（原 Continuum Analytics）开发，旨在简化数据科学项目中常见的环境配置、包管理和依赖冲突等问题。&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>使用Anaconda-Navigator，用图形化界面创建python 3.8（mac环境下高版本可能会有报错，所以尽量使用3.8）的环境&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h3 id="安装labelimg">安装LabelImg
+&lt;/h3>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-cmd" data-lang="cmd">&lt;span class="line">&lt;span class="cl">git clone https://github.com/HumanSignal/labelImg.git
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">cd&lt;/span> labelImg
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">conda activate [环境名]
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">pip3 install pyqt5 lxml
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">make qt5py3
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">python3 labelImg.py
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="手动标注">手动标注
+&lt;/h3>&lt;p>在图形化界面打开图片目录，选择格式为yolo。&lt;/p>
+&lt;p>建議記下常用快捷鍵較方便，上一張按&lt;code>A&lt;/code>，下一張按&lt;code>D&lt;/code>，儲存按&lt;code>Ctrl+S&lt;/code>，創建新的標記框按&lt;code>W&lt;/code>，刪除錯誤框&lt;code>Del&lt;/code> 。&lt;/p>
+&lt;p>按下w框初目标并保存。&lt;/p>
+&lt;h3 id="目录结构">目录结构
+&lt;/h3>&lt;p>每张图片在 images/ 里，每个对应的 .txt 标注文件在 labels/ 里。&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;span class="lnt">8
+&lt;/span>&lt;span class="lnt">9
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-txt" data-lang="txt">&lt;span class="line">&lt;span class="cl">yanhe/
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">├── dataset/
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">│ ├── images/
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">│ │ ├── train/
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">│ │ └── val/
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">│ ├── labels/
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">│ │ ├── train/
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">│ │ └── val/
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">│ └── data.yaml
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="配置文件">配置文件
+&lt;/h3>&lt;p>data.yaml 内容如下&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-yaml" data-lang="yaml">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">train&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">../dataset/images/train&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">val&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">../dataset/images/val&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">nc&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">3&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># 类别数量&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">names&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="s1">&amp;#39;南京&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="s1">&amp;#39;中华&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="s1">&amp;#39;中南海&amp;#39;&lt;/span>&lt;span class="p">]&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># 类别名称&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="yolov5">Yolov5
+&lt;/h2>&lt;h3 id="运行环境-1">运行环境
+&lt;/h3>&lt;p>使用Anaconda-Navigator，用图形化界面创建python 3.10的环境&lt;/p>
+&lt;h3 id="安装yolov5">安装yolov5
+&lt;/h3>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-cmd" data-lang="cmd">&lt;span class="line">&lt;span class="cl">&lt;span class="k">cd&lt;/span> [工程文件名]
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"># 克隆 YOLOv5
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">git clone https://github.com/ultralytics/yolov5.git
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">cd&lt;/span> yolov5
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">conda activate [环境名]
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">pip install -r requirements.txt
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="训练模型">训练模型
+&lt;/h3>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-cmd" data-lang="cmd">&lt;span class="line">&lt;span class="cl">&lt;span class="k">cd&lt;/span> ~/Desktop/code/yan/yanhe/yolov5
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">python train.py --img 640 --batch 4 --epochs 50 --data ../dataset/data.yaml --weights yolov5s.pt
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>执行完后会有以下提示&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-cmd" data-lang="cmd">&lt;span class="line">&lt;span class="cl">Results saved to yolov5/runs/train/exp5
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="使用模型">使用模型
+&lt;/h3>&lt;details>
+&lt;summary>点击展开代码&lt;/summary>
+&lt;div>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="lnt">19
+&lt;/span>&lt;span class="lnt">20
+&lt;/span>&lt;span class="lnt">21
+&lt;/span>&lt;span class="lnt">22
+&lt;/span>&lt;span class="lnt">23
+&lt;/span>&lt;span class="lnt">24
+&lt;/span>&lt;span class="lnt">25
+&lt;/span>&lt;span class="lnt">26
+&lt;/span>&lt;span class="lnt">27
+&lt;/span>&lt;span class="lnt">28
+&lt;/span>&lt;span class="lnt">29
+&lt;/span>&lt;span class="lnt">30
+&lt;/span>&lt;span class="lnt">31
+&lt;/span>&lt;span class="lnt">32
+&lt;/span>&lt;span class="lnt">33
+&lt;/span>&lt;span class="lnt">34
+&lt;/span>&lt;span class="lnt">35
+&lt;/span>&lt;span class="lnt">36
+&lt;/span>&lt;span class="lnt">37
+&lt;/span>&lt;span class="lnt">38
+&lt;/span>&lt;span class="lnt">39
+&lt;/span>&lt;span class="lnt">40
+&lt;/span>&lt;span class="lnt">41
+&lt;/span>&lt;span class="lnt">42
+&lt;/span>&lt;span class="lnt">43
+&lt;/span>&lt;span class="lnt">44
+&lt;/span>&lt;span class="lnt">45
+&lt;/span>&lt;span class="lnt">46
+&lt;/span>&lt;span class="lnt">47
+&lt;/span>&lt;span class="lnt">48
+&lt;/span>&lt;span class="lnt">49
+&lt;/span>&lt;span class="lnt">50
+&lt;/span>&lt;span class="lnt">51
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="kn">import&lt;/span> &lt;span class="nn">torch&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kn">import&lt;/span> &lt;span class="nn">cv2&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kn">from&lt;/span> &lt;span class="nn">PIL&lt;/span> &lt;span class="kn">import&lt;/span> &lt;span class="n">Image&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">ImageDraw&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">ImageFont&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kn">import&lt;/span> &lt;span class="nn">numpy&lt;/span> &lt;span class="k">as&lt;/span> &lt;span class="nn">np&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># 加载模型&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">model&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">torch&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">hub&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">load&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;yolov5&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s1">&amp;#39;custom&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">path&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s1">&amp;#39;yolov5/runs/train/exp7/weights/best.pt&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">source&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s1">&amp;#39;local&amp;#39;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">model&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">conf&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mf">0.2&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">model&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">iou&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mf">0.45&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">model&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">classes&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="kc">None&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">img_path&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s1">&amp;#39;test.jpg&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">img_bgr&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">cv2&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">imread&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">img_path&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># 推理&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">results&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">model&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">img_bgr&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">detections&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">results&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">pandas&lt;/span>&lt;span class="p">()&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">xyxy&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="mi">0&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># OpenCV 图像转换为 PIL 图像（RGB）&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">img_pil&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">Image&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">fromarray&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">cv2&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">cvtColor&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">img_bgr&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">cv2&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">COLOR_BGR2RGB&lt;/span>&lt;span class="p">))&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">draw&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">ImageDraw&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">Draw&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">img_pil&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># 加载支持中文的字体（确保路径正确）&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">font_path&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s2">&amp;#34;/System/Library/Fonts/STHeiti Light.ttc&amp;#34;&lt;/span> &lt;span class="c1"># macOS 自带中文字体路径之一&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">font&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">ImageFont&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">truetype&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">font_path&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">20&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">print&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="sa">f&lt;/span>&lt;span class="s1">&amp;#39;识别到 &lt;/span>&lt;span class="si">{&lt;/span>&lt;span class="nb">len&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">detections&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="si">}&lt;/span>&lt;span class="s1"> 个物体。&amp;#39;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">for&lt;/span> &lt;span class="n">_&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">row&lt;/span> &lt;span class="ow">in&lt;/span> &lt;span class="n">detections&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">iterrows&lt;/span>&lt;span class="p">():&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">xmin&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">ymin&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">xmax&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">ymax&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nb">int&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">row&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="s1">&amp;#39;xmin&amp;#39;&lt;/span>&lt;span class="p">]),&lt;/span> &lt;span class="nb">int&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">row&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="s1">&amp;#39;ymin&amp;#39;&lt;/span>&lt;span class="p">]),&lt;/span> &lt;span class="nb">int&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">row&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="s1">&amp;#39;xmax&amp;#39;&lt;/span>&lt;span class="p">]),&lt;/span> &lt;span class="nb">int&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">row&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="s1">&amp;#39;ymax&amp;#39;&lt;/span>&lt;span class="p">])&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">confidence&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">name&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">row&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="s1">&amp;#39;confidence&amp;#39;&lt;/span>&lt;span class="p">],&lt;/span> &lt;span class="n">row&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="s1">&amp;#39;name&amp;#39;&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">label&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="sa">f&lt;/span>&lt;span class="s1">&amp;#39;&lt;/span>&lt;span class="si">{&lt;/span>&lt;span class="n">name&lt;/span>&lt;span class="si">}&lt;/span>&lt;span class="s1"> &lt;/span>&lt;span class="si">{&lt;/span>&lt;span class="n">confidence&lt;/span>&lt;span class="si">:&lt;/span>&lt;span class="s1">.2f&lt;/span>&lt;span class="si">}&lt;/span>&lt;span class="s1">&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1"># 画边框&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">draw&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">rectangle&lt;/span>&lt;span class="p">([(&lt;/span>&lt;span class="n">xmin&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">ymin&lt;/span>&lt;span class="p">),&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="n">xmax&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">ymax&lt;/span>&lt;span class="p">)],&lt;/span> &lt;span class="n">outline&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s1">&amp;#39;green&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">width&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="mi">2&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1"># 画文字背景和文字&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">bbox&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">draw&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">textbbox&lt;/span>&lt;span class="p">((&lt;/span>&lt;span class="n">xmin&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">ymin&lt;/span>&lt;span class="p">),&lt;/span> &lt;span class="n">label&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">font&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="n">font&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">text_width&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">bbox&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="mi">2&lt;/span>&lt;span class="p">]&lt;/span> &lt;span class="o">-&lt;/span> &lt;span class="n">bbox&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="mi">0&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">text_height&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">bbox&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="mi">3&lt;/span>&lt;span class="p">]&lt;/span> &lt;span class="o">-&lt;/span> &lt;span class="n">bbox&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">draw&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">rectangle&lt;/span>&lt;span class="p">([&lt;/span>&lt;span class="n">xmin&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">ymin&lt;/span> &lt;span class="o">-&lt;/span> &lt;span class="n">text_height&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">xmin&lt;/span> &lt;span class="o">+&lt;/span> &lt;span class="n">text_width&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">ymin&lt;/span>&lt;span class="p">],&lt;/span> &lt;span class="n">fill&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s1">&amp;#39;green&amp;#39;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">draw&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">text&lt;/span>&lt;span class="p">((&lt;/span>&lt;span class="n">xmin&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">ymin&lt;/span> &lt;span class="o">-&lt;/span> &lt;span class="n">text_height&lt;/span>&lt;span class="p">),&lt;/span> &lt;span class="n">label&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">font&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="n">font&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">fill&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s1">&amp;#39;black&amp;#39;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># 转换回 OpenCV 图像并保存&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">img_result&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">cv2&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">cvtColor&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">np&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">array&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">img_pil&lt;/span>&lt;span class="p">),&lt;/span> &lt;span class="n">cv2&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">COLOR_RGB2BGR&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">output_path&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s1">&amp;#39;inference_results/test_with_boxes.jpg&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">cv2&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">imwrite&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">output_path&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">img_result&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">print&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="sa">f&lt;/span>&lt;span class="s1">&amp;#39;结果已保存至 &lt;/span>&lt;span class="si">{&lt;/span>&lt;span class="n">output_path&lt;/span>&lt;span class="si">}&lt;/span>&lt;span class="s1">&amp;#39;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/div>
+&lt;/details></description></item><item><title>Docker使用</title><link>https://rxlxr11.github.io/p/docker%E4%BD%BF%E7%94%A8/</link><pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate><guid>https://rxlxr11.github.io/p/docker%E4%BD%BF%E7%94%A8/</guid><description>&lt;img src="https://rxlxr11.github.io/p/docker%E4%BD%BF%E7%94%A8/cover.jpg" alt="Featured image of post Docker使用" />&lt;h2 id="认识docker">认识Docker
 &lt;/h2>&lt;p>借助 Docker，可将容器当做轻巧、模块化的虚拟机来使用。同时，还将获得高度灵活性，实现对容器的高效创建、部署及复制，并在环境之间迁移它们，从而有助于您针对云来优化应用。&lt;/p>
 &lt;p>Docker 中的容器就像是轻量级的虚拟机，虽然不是真正模拟整个操作系统，但能提供类似的隔离运行环境。镜像就像是程序运行所需要的环境模板，容器就是在这个模板基础上启动起来的“活的”实例。&lt;/p>
 &lt;h2 id="系统服务">系统服务

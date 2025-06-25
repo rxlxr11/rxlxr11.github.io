@@ -111,7 +111,10 @@ loading="lazy"
 class="gallery-image"
 data-flex-grow="133"
 data-flex-basis="320px"
->&lt;/p></description></item><item><title>springboot</title><link>https://rxlxr11.github.io/p/springboot/</link><pubDate>Sun, 05 Jan 2025 00:00:00 +0000</pubDate><guid>https://rxlxr11.github.io/p/springboot/</guid><description>&lt;img src="https://rxlxr11.github.io/p/springboot/cover.jpg" alt="Featured image of post springboot" />&lt;h2 id="三大特性">三大特性
+>&lt;/p></description></item><item><title>Echarts 使用技巧</title><link>https://rxlxr11.github.io/p/echarts-%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/</link><pubDate>Sun, 05 Jan 2025 00:00:00 +0000</pubDate><guid>https://rxlxr11.github.io/p/echarts-%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/</guid><description>&lt;img src="https://rxlxr11.github.io/p/echarts-%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/cover.jpg" alt="Featured image of post Echarts 使用技巧" />&lt;h2 id="通用">通用
+&lt;/h2>&lt;h2 id="柱状图">柱状图
+&lt;/h2>&lt;h2 id="折线图">折线图
+&lt;/h2></description></item><item><title>springboot</title><link>https://rxlxr11.github.io/p/springboot/</link><pubDate>Sun, 05 Jan 2025 00:00:00 +0000</pubDate><guid>https://rxlxr11.github.io/p/springboot/</guid><description>&lt;img src="https://rxlxr11.github.io/p/springboot/cover.jpg" alt="Featured image of post springboot" />&lt;h2 id="三大特性">三大特性
 &lt;/h2>&lt;h3 id="iocinversion-of-control">IOC（Inversion of Control）
 &lt;/h3>&lt;p>在以往的开发中，一个类若想调用另一个类的属性或方法，通常会使用new Object()的方式来实现调用，将前者称为调用者后者成为被调用者，这样就可以说是调用者掌握着被调用者对象创建的控制权。ioc带来的不仅仅是代码层次的改变，而是思想方面发生了”主从换位“的改变。原本调用者要想使用哪些资源都会主动出击，自己创建。但在spring应用中，ioc掌握着主动权，调用者变成了被动的一方，被动的等待ioc创建他所需要的对象，这个过程在职责层面发生了控制权的反转，把原本调用者通过代码实现的对象的创建，反转给ioc容器来帮忙实现，因此，将这个过程称为spring的控制反转。&lt;/p>
 &lt;h3 id="di">DI
